@@ -1,0 +1,68 @@
+body {
+  background-image: url('galaxy.jpg');
+  background-repeat: none;
+  background-size: cover;
+}
+
+
+
+* {
+  font-family: Calibri, sans-serif;
+  color: blue;
+}
+
+.bottom img {
+  height: 30px;
+  width: 30px;
+  padding: 20px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  top: 0;
+  text-align: center;
+}
+
+h2, h4, p, h3 {
+  text-align: center;
+}
+
+
+.begin {
+  position: -webkit -sticky;
+  position: sticky;
+  top: 0;
+  background-color: lightblue;
+}
+
+#table {
+  margin-left: 20%;
+  margin-right: 20%;
+
+}
+
+.dogs td, h5, h6 {
+  padding-left: 10px;
+}
+
+.PA {
+  width: 20%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 100px;
+}
+
+.PA tr:nth-child(even) {
+  background-color: lightblue;
+}
+
+.PA tr:nth-child(odd) {
+  background-color: white;
+}
+
+.bottom {
+  background-color: lightblue;
+  align: center;
+}
